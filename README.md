@@ -1,6 +1,7 @@
 # Random Entries Generator
 
 This Node.js script uses Mongoose and Faker to generate and insert random book entries into a MongoDB database.
+If you found this script useful do give it a Star!
 
 ## Prerequisites
 
