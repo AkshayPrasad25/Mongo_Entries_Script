@@ -24,7 +24,7 @@ async function generateRandomData() {
 
     posts.push(post);
   }
-//replace Post with ur mongo collection
+//Replace Post with your mongo collection name
   await Post.insertMany(posts);
   console.log('Random entries inserted successfully.');
   mongoose.connection.close();
